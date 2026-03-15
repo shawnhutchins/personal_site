@@ -1,8 +1,10 @@
 ---
 title: "Dead Air Remove"
 description: "..."
+date: 2026-03-15
 categories: ["coding"]
 tags: ["python", "tkinter", "ffmpeg"]
+draft: false
 ---
 
 ## A Python app for removing dead-air/silence from audio files!
