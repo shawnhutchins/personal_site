@@ -32,3 +32,9 @@ This project is a Python CustomTkinter app that uses FFMPEG to remove dead-air f
 Pressing ***Ctrl + t*** fills the entries with default test values and creates the necessary folders. Place some audio files in the input folder and change the ***Filetype*** by clicking the ***Filetype*** button and selecting one of your files from the input folder.
 
 ![Dead Air Remove UI with test values](DeadAirRemove_values_screenshot.png)
+
+## Console Tab
+
+
+
+![Dead Air Remove Console tab](DeadAirRemove_console_screenshot.png)
