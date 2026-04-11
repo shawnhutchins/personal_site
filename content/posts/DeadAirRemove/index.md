@@ -23,15 +23,26 @@ This project is a Python CustomTkinter app that uses FFMPEG to remove dead-air f
 
 ***Silence*** button sets the adjacent slider to the default value for the minimum duration of silence (in seconds) to be removed. The default is 0.5 seconds. This means that the silence must be at least 0.5 seconds long or longer to be removed.
 
-***Run*** button starts processing the files based on the input values. If there is an error with the inputs the respective input will be outlined in red and an alert will explain the issues. The adjacent loading bar will fill as the files are processed and a tooltip on the loading bar will display how many files have been processed and how many are left. During processing, the run button will become a cancel button allowing you to cancel processing, finishing the current file.
+***Run*** button starts processing the files based on the input values. The adjacent loading bar will fill as the files are processed and a tooltip on the loading bar will display how many files have been processed and how many are left. During processing, the run button will become a cancel button allowing you to cancel processing, finishing the current file.
 
 ***Tooltips*** are applied to each button and the loading bar to provide information about each elements function or progress in the case of the loading bar.
 
 ## Shortcuts
 
-Pressing ***Ctrl + t*** fills the entries with default test values and creates the necessary folders. Place some audio files in the input folder and change the ***Filetype*** by clicking the ***Filetype*** button and selecting one of your files from the input folder.
+Pressing ***Ctrl + t*** fills the entries with default test values and creates the necessary folders in the apps folder. Place some audio files in the input folder and change the ***Filetype*** by clicking the ***Filetype*** button and selecting one of your files from the input folder.
 
 ![Dead Air Remove UI with test values](DeadAirRemove_values_screenshot.png)
+
+## Validation
+
+If there is an error with the inputs the respective input will be outlined in red and an alert will explain the issues. Validation checks for the following. 
+- Empty inputs 
+- If input/output folders are the same 
+- Confirms that input/output folders exist
+- Confirms that files exist in the input folder
+- If a file of the selected filetype exists in the input folder
+
+![Dead Air Remove UI with validation errors](DeadAirRemove_validation_error_screenshot.png)
 
 ## Console Tab
 
