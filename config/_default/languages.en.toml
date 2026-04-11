@@ -20,7 +20,7 @@ title = "Shawn Hutchins"
   image = "https://avatars.githubusercontent.com/u/10261204?v=4"
   imageQuality = 96
   headline = "Python & Web Developer | Problem Solver | Maker"
-  bio = "A little bit about you"
+#  bio = "A little bit about you"
   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
