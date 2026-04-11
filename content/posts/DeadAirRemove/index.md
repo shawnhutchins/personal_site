@@ -46,6 +46,6 @@ If there is an error with the inputs the respective input will be outlined in re
 
 ## Console Tab
 
-Console output such as print statements and errors have been routed to the console tab. Note that the FFMPEG spacific
+Console output such as print statements and errors have been routed to the console tab. Note that the FFMPEG spacific output is not redirected.
 
 ![Dead Air Remove Console tab](DeadAirRemove_console_screenshot.png)
