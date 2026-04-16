@@ -2,8 +2,8 @@
 title: "Dead Air Remove"
 description: "This project is a Python CustomTkinter app that uses FFMPEG to remove silence from all audio files of a given type within a given folder."
 date: 2026-03-15
-categories: ["coding"]
-tags: ["python", "tkinter", "ffmpeg"]
+categories: ["Coding"]
+tags: ["Python", "Tkinter", "FFMPEG"]
 draft: false
 ---
 
