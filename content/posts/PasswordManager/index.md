@@ -8,3 +8,9 @@ draft: false
 ---
 
 # A secure solution for storing passwords locally
+
+## Encryption
+
+## Decryption
+
+## Cryptography
